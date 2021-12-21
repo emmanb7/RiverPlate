@@ -1,0 +1,65 @@
+header {
+  h1 {
+    background-color: $cl-primary;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    line-height: 90px;
+    color: rgb(243, 235, 235);
+    margin: 0px;
+  }
+}
+.header {
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 100px;
+  border-bottom: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    color: red;
+    &__link {
+      text-decoration: none;
+      font-style: normal;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+.navbar {
+  padding: 0px;
+  margin: 0px;
+  &__principal {
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    &__list {
+      a {
+        &:hover {
+          color: red;
+        }
+      }
+      &__img {
+        border-radius: 8px;
+      }
+    }
+  }
+}
+.accordion-button {
+  background-color: red;
+}

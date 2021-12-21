@@ -1,0 +1,17 @@
+{
+  "name": "original-clase-16",
+  "version": "1.0.0",
+  "description": "Pagina 100% no oficial del Club atletico River plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path scss scss/global.scss css/styles.css",
+    "watch": "nodemon -e scss -x npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

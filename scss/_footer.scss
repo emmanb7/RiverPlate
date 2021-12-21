@@ -1,0 +1,17 @@
+.footer {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.iconoWhatsapp {
+  right: 70px;
+  bottom: 100px;
+  position: fixed;
+  img {
+    height: 65px;
+    width: 65px;
+  }
+}
